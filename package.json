@@ -1,0 +1,23 @@
+{
+	"name": "character_name_generator",
+	"version": "1.0.0",
+	"description": "generate random character names for your books,movies,games and other places",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server.js"
+	},
+	"author": "mohamedHussein95",
+	"license": "MIT",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"mongodb": "^5.5.0",
+		"mongoose": "^7.1.1"
+	},
+	"devDependencies": {
+		"@faker-js/faker": "^8.0.0",
+		"nodemon": "^2.0.22"
+	}
+}
